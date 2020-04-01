@@ -12,6 +12,7 @@ Navigating our new world in this time of crisis is not easy. Healthcare and emer
 The project aims to solve the following <strong>business problems</strong>: 
 1. What's next? A pandemic as such usually leaves governments and healthcare officials confused as to what would be the effect of this and is going to happen in the future. 
 2. Future planning - Organizations need to plan out the necessary precautions by looking at the current situation and the predicted situation.
+
 ![alt text](https://github.com/anchalbhalla/covid-analysis/blob/master/images/problems.png)
 
 
