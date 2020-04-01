@@ -15,7 +15,7 @@ The project aims to solve the following <strong>business problems</strong>:
 ![alt text](https://github.com/anchalbhalla/covid-analysis/blob/master/images/problems.png)
 
 
-The COVID analyzer project aims to ease the task of these critical organisations so authories can focus more on planning and treatments. It uses data from all across the globe to visualize the current situation in a very interactive manner using <strong>Cognos Dashboards</strong> which gives them the customization option as well. Next, AI models have been deployed to a shiny application which show the forecast of the coronavirus spread in critial countries - UAE, Italy and China. These models have been created using SPSS to show the quick, efficient and accurate methods on Watson Studio.
+The COVID analyzer project aims to ease the task of these critical organisations so authories can focus more on planning and treatments. It uses data from all across the globe to visualize the current situation in a very interactive manner using <strong>Cognos Dashboards</strong> which gives them the customization option as well. Next, <strong>AI models</strong> have been deployed to a <strong>shiny application</strong> which show the forecast of the coronavirus spread in critial countries - UAE, Italy and China. These models have been created using <strong>SPSS</strong> to show the quick, efficient and accurate methods on Watson Studio.
 
 
 ## Products used: 
