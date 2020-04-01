@@ -25,3 +25,14 @@ The COVID analyzer project aims to ease the task of these critical organisations
   - SPSS
   - WML (Watson Machine Learning) 
   - R Studio - Shiny application
+
+
+## Data Science Pipeline 
+
+### Data preparation 
+
+### Data Exploration - Cognos Dashboard Visualizations
+
+### AI Models - Trend Analysis 
+
+### Shiny Application
