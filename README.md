@@ -40,18 +40,26 @@ The data is all over the place and it can get very overwhelming to extract and u
 
 
 ### Data Exploration - Cognos Dashboard Visualizations 
-Below is a representation of the dashboard I created. You can access the dashboard over here to try it out on your own: https://dataplatform.cloud.ibm.com/dashboards/91e629de-7a3c-4280-97d9-b3d45dd1c2f2/view/5c12a50e3b936dc54edec4e40790780779632d5ae6bbd70a80d17b490a342497f03d4196c82e4a5f8f130666fae8115a9b
+Below is a representation of the dashboard I created. You can access the dashboard over here to try it out on your own: https://dataplatform.cloud.ibm.com/dashboards/91e629de-7a3c-4280-97d9-b3d45dd1c2f2/view/5c12a50e3b936dc54edec4e40790780779632d5ae6bbd70a80d17b490a342497f03d4196c82e4a5f8f130666fae8115a9b 
+
+![alt text](https://github.com/anchalbhalla/covid-analysis/blob/master/images/dashboard-pic.png)
 
 The  dashboard shows all the confirmed cases till now in different countries accross the globe. If if you hover over any point, it will show you the confirmed cases in that particular country. It also, shows the deaths, recovered and confrimed cases for each country. Cognos provides a very interactive feel, you can click on any country and monitor the situation of it. 
 
+
+![alt text](https://github.com/anchalbhalla/covid-analysis/blob/master/images/dashboard1.png)
+
 Another map is a comparion between of the number of cases in critical countries: UAE, Italy and China in the span of 2 months. We can see that the numbers are increasing expontially in Italy and China. And the graph is more linear when it comes to UAE.
+
+
+![alt text](https://github.com/anchalbhalla/covid-analysis/blob/master/images/dashboard2.png)
 
 ### AI Models - Trend Analysis (Forecasting)
 Looking at the current situation a dashboard will only tell us what is happening in the present but what about the future? I have created 6 models on SPSS for 3 countries UAE Italy and China to forecast the confirmed and recovered cases. 
 
 The models were created using Arima time series models on SPSS, to show the forecast for the next 15 days while spotting at any outliers, seasonal changes, etc. Below is a model created for confirmed cases in UAE 
 
-![alt text](https://github.com/anchalbhalla/covid-analysis/blob/master/images/spss.png)
+![alt text](https://github.com/anchalbhalla/covid-analysis/blob/master/images/spss-pipeline.png)
 
 The output of the model shows the current sitaution with a predicted graph. It shows the forecasted number of cases.
 
@@ -60,10 +68,15 @@ The output of the model shows the current sitaution with a predicted graph. It s
 ### Shiny Application
 Now to show the output of all the models in an interactive way for the health officials to use, an R shiny app. Below you can see the confirmed cases for the countries UAE, Italy and China. You can see that for Italy and China the growth is very expontential whereas for UAE its growing in a linear manner which is a good sign. 
 
+![alt text](https://github.com/anchalbhalla/covid-analysis/blob/master/images/corona-confimed.gif)
+
 If we look at the recovery, its going to continue to have a linear growth for all the countries. 
 
+![alt text](https://github.com/anchalbhalla/covid-analysis/blob/master/images/corona-recovered.gif)
 
 Now lets say we want to check if we want to plan our hospital supplies- hospital beds and ICU beds to accomadate the increasing numbers we can simply check the boxes to see what is lacking 
+
+![alt text](https://github.com/anchalbhalla/covid-analysis/blob/master/images/corona-hospital.gif)
 
 
 ## Conclusion 
