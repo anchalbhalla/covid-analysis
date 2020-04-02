@@ -28,11 +28,18 @@ The COVID analyzer project aims to ease the task of these critical organisations
   - R Studio - Shiny application
 
 
-## Data Science Pipeline 
+## Data Science Pipeline  
+The general data science pipeline was followed to evaluate the covid-19 results.
+
+![alt text](https://github.com/anchalbhalla/covid-analysis/blob/master/images/pipeline.png)
 
 ### Data preparation 
+Data Source: Daily Covid-19 reports by John Hopkins - https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports
+The data is all over the place and it can get very overwhelming to extract and use the right ones. For the procress I used Excel and Data refinery to get data for the latest dates globally for the dashboarding part. And for the time series models I got data only for UAE, China and Italy for all the dates.
 
-### Data Exploration - Cognos Dashboard Visualizations
+
+### Data Exploration - Cognos Dashboard Visualizations 
+Below is a representation of the dashboard I created. You can access the dashboard over here to try it out on your own: 
 
 ### AI Models - Trend Analysis 
 
