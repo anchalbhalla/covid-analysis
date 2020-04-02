@@ -1,0 +1,12 @@
+name: Corona-Virus-Forecast1
+title: Corona-Virus-Forecast1
+username:
+account: anchalbhalla
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1940375
+bundleId: 2875305
+url: https://anchalbhalla.shinyapps.io/Corona-Virus-Forecast1/
+when: 1584028418.74041
+asMultiple: FALSE
+asStatic: FALSE
