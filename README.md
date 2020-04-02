@@ -39,8 +39,12 @@ The data is all over the place and it can get very overwhelming to extract and u
 
 
 ### Data Exploration - Cognos Dashboard Visualizations 
-Below is a representation of the dashboard I created. You can access the dashboard over here to try it out on your own: 
+Below is a representation of the dashboard I created. You can access the dashboard over here to try it out on your own:  
 
-### AI Models - Trend Analysis 
+The  dashboard shows all the confirmed cases till now in different countries accross the globe. If if you hover over any point, it will show you the confirmed cases in that particular country. It also, shows the deaths, recovered and confrimed cases for each country. Cognos provides a very interactive feel, you can click on any country and monitor the situation of it. 
+
+Another map is a comparion between of the number of cases in critical countries: UAE, Italy and China in the span of 2 months. We can see that the numbers are increasing expontially in Italy and China. And the graph is more linear when it comes to UAE.
+
+### AI Models - Trend Analysis (Forecasting)
 
 ### Shiny Application
