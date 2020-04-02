@@ -47,12 +47,12 @@ Below is a representation of the dashboard I created. You can access the dashboa
 The  dashboard shows all the confirmed cases till now in different countries accross the globe. If if you hover over any point, it will show you the confirmed cases in that particular country. It also, shows the deaths, recovered and confrimed cases for each country. Cognos provides a very interactive feel, you can click on any country and monitor the situation of it. 
 
 
-![alt text](https://github.com/anchalbhalla/covid-analysis/blob/master/images/dashboard1.png)
+![alt text](https://github.com/anchalbhalla/covid-analysis/blob/master/images/dashboard1.gif)
 
 Another map is a comparion between of the number of cases in critical countries: UAE, Italy and China in the span of 2 months. We can see that the numbers are increasing expontially in Italy and China. And the graph is more linear when it comes to UAE.
 
 
-![alt text](https://github.com/anchalbhalla/covid-analysis/blob/master/images/dashboard2.png)
+![alt text](https://github.com/anchalbhalla/covid-analysis/blob/master/images/dashboard2.gif)
 
 ### AI Models - Trend Analysis (Forecasting)
 Looking at the current situation a dashboard will only tell us what is happening in the present but what about the future? I have created 6 models on SPSS for 3 countries UAE Italy and China to forecast the confirmed and recovered cases. 
